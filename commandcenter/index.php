@@ -111,7 +111,7 @@ function printList($list) {
 		<div id='accessListDiv'>
 			<?php listUsers($accessList, 'access'); ?>
 		</div>
-		<div><input id='accessName' /><button onclick="addUser('access');">Add New Admin</button></div>
+		<div><input id='accessName' /><button onclick="addUser('access');">Give New User DB Access</button></div>
 	</body>
 	<script type="text/javascript">
 		$(window).load(function() {
